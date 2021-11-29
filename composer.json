@@ -1,0 +1,27 @@
+{
+  "require": {
+    "firebase/php-jwt": "^5.4"
+  },
+  "autoload": {
+    "classmap": [
+      "App/FactoryUrl/FactoryUrlClass.php",
+      "App/UrlCreate.php",
+      "App/UrlDelete.php",
+      "App/UrlUpdate.php",
+      "Caching/RedisCache.php",
+      "Data/Database.php",
+      "jwt/BeforeValidException.php",
+      "jwt/ExpiredException.php",
+      "jwt/JWT.php",
+      "jwt/SignatureInvalidException.php",
+      "JwtLogin/JwtHandler.php",
+      "middlewares/Auth.php",
+      "Repository/UrlRepository.php",
+      "Repository/IRepository.php",
+      "utils/Utils.php",
+      "Login.php",
+      "Main.php",
+      "Register.php"
+    ]
+  }
+}
